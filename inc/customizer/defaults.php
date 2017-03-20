@@ -38,6 +38,7 @@ function ttfmake_option_defaults() {
 		'social-youtube'                           => '',
 		'social-vimeo-square'                      => '',
 		'social-pinterest'                         => '',
+		'social-github'                            => '',
 		// Email
 		'social-email'                             => '',
 		// RSS

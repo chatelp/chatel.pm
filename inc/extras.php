@@ -467,6 +467,10 @@ function ttfmake_get_social_links() {
 			'title' => 'Pinterest',
 			'class' => 'fa-pinterest',
 		),
+		'github' => array(
+			'title' => 'GitHub',
+			'class' => 'fa-github',
+		),
 		'email' => array(
 			'title' => __( 'Email', 'make' ),
 			'class' => 'fa-envelope',

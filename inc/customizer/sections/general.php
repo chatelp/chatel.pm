@@ -244,6 +244,15 @@ function ttfmake_customizer_define_general_sections( $sections ) {
 					'type'  => 'text',
 				),
 			),
+			'social-github'          => array(
+				'setting' => array(
+					'sanitize_callback' => 'esc_url_raw',
+				),
+				'control' => array(
+					'label' => 'GitHub', // brand names not translated
+					'type'  => 'text',
+				),
+			),
 			'social-custom-menu-text'   => array(
 				'control' => array(
 					'control_type' => 'TTFMAKE_Customize_Misc_Control',
